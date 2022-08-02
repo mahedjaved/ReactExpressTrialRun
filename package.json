@@ -1,0 +1,30 @@
+{
+    "name": "wk9expressreact",
+    "version": "1.0.0",
+    "description": "Boiler plate code for joining React and Express",
+    "main": "server.js",
+    "scripts": {
+        "start": "node server.js",
+        "server": "nodemon server.js",
+        "client": "cd client && npm start",
+        "dev": "concurrently \"npm run server\" \"npm run client\"",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/mahedjaved/ReactExpressTrialRun.git"
+    },
+    "author": "Mahed Javed",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/mahedjaved/ReactExpressTrialRun/issues"
+    },
+    "homepage": "https://github.com/mahedjaved/ReactExpressTrialRun#readme",
+    "dependencies": {
+        "concurrently": "^7.3.0",
+        "express": "^4.18.1"
+    },
+    "devDependencies": {
+        "nodemon": "^2.0.19"
+    }
+}
